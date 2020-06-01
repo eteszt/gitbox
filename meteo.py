@@ -8,7 +8,7 @@ Original file is located at
 
 # Meteorológiai jelentés
 
-Emelt érettségi 2020. május
+Emelt érettségi feladat 2020. május
 [Algoritmizálás, adatmodellezés](https://drive.google.com/file/d/1gx0MH4x3cEOi10eFUB-muRWxAK7LV3Mr/view?usp=sharing)
 
 ### 1. Olvassa be és tárolja el a tavirathu13.txt állomány adatait!
