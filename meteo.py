@@ -31,7 +31,7 @@ varos=input("Adja meg egy település kódját: ").upper()
 for i in range(-1,-len(tavirat)-1,-1):  #a végéről visszafele keressük a várost
   if varos==tavirat[i][0]:
     print("Az utolsó adat a megadott településről {}:{}-kor érkezett.".format(tavirat[i][1][0:2],tavirat[i][1][2:4]))
-    break                               #ha megtaláltuk, befejezzők a ciklust
+    break                               #ha megtaláltuk, befejezzük a ciklust
 
 """### 3. Határozza meg, hogy a nap során mikor mérték a legalacsonyabb és a legmagasabb hőmérsékletet! Jelenítse meg a méréshez kapcsolódó település nevét, az időpontot és a hőmérsékletet! Amennyiben több legnagyobb vagy legkisebb érték van, akkor elég az egyiket kiírnia."""
 
