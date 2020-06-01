@@ -28,7 +28,7 @@ tavirathu13.close()
 #második feladat
 print("2. feladat")
 varos=input("Adja meg egy település kódját: ").upper()
-for i in range(-1,-len(tavirat)-1,-1):  #a végéről visszafele keressők a várost
+for i in range(-1,-len(tavirat)-1,-1):  #a végéről visszafele keressük a várost
   if varos==tavirat[i][0]:
     print("Az utolsó adat a megadott településről {}:{}-kor érkezett.".format(tavirat[i][1][0:2],tavirat[i][1][2:4]))
     break                               #ha megtaláltuk, befejezzők a ciklust
@@ -63,8 +63,8 @@ for sor in tavirat:
 if not szelcsendvolt:
   print("Nem volt szélcsend a mérések idején.")
 
-"""### 5. Határozza meg a települések napi középhőmérsékleti adatát és a hőmérséklet-ingadozását! A kiírásnál a település kódja szerepeljen a sor elején a minta szerint! A kiírásnál csak a megoldott feladatrészre vonatkozó szöveget és értékeket írja ki! 
-a.) A középhőmérséklet azon hőmérsékleti adatok átlaga, amikor a méréshez tartozó óra értéke 1., 7., 13., 19. Ha egy településen a felsorolt órák valamelyikén nem volt mérés, akkor a kiírásnál az „NA” szót jelenítse meg! Az adott órákhoz tartozó összes adat átlagaként határozza meg a középhőmérsékletet, azaz minden értéket azonos súllyal vegyen figyelembe! A középhőmérsékletet egészre kerekítve jelenítse meg! 
+"""### 5. Határozza meg a települések napi középhőmérsékleti adatát és a hőmérséklet-ingadozását! A kiírásnál a település kódja szerepeljen a sor elején a minta szerint! A kiírásnál csak a megoldott feladatrészre vonatkozó szöveget és értékeket írja ki!
+a.) A középhőmérséklet azon hőmérsékleti adatok átlaga, amikor a méréshez tartozó óra értéke 1., 7., 13., 19. Ha egy településen a felsorolt órák valamelyikén nem volt mérés, akkor a kiírásnál az „NA” szót jelenítse meg! Az adott órákhoz tartozó összes adat átlagaként határozza meg a középhőmérsékletet, azaz minden értéket azonos súllyal vegyen figyelembe! A középhőmérsékletet egészre kerekítve jelenítse meg!
 
 b.) A hőmérséklet-ingadozás számításhoz az adott településen a napi legmagasabb és legalacsonyabb hőmérséklet különbségét kell kiszámítania! (Feltételezheti, hogy minden település esetén volt legalább két mérési adat.)
 """
