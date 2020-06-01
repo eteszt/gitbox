@@ -19,7 +19,7 @@ URL=""
 tavirathu13=open(URL+"tavirathu13.txt")
 tavirat=[]
 for sor in tavirathu13:
-  tavirat.append(sor.strip().split(" ")) #szétbontjuk a dort
+  tavirat.append(sor.strip().split(" ")) #szétbontjuk a sort
   tavirat[-1][3]=int(tavirat[-1][3])     #a hőmérsékletet egész számmá alakítjuk
 tavirathu13.close()
 
